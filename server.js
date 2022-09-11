@@ -9,7 +9,7 @@ app.use(cors());
 let odata = {};
 // url = "https://jsonplaceholder.typicode.com/posts";
 // url1 = "https://www.nseindia.com/api/option-chain-indices?symbol=BANKNIFTY";
-app.get("/", async (req, res) => {
+app.get("https://expressoc.herokuapp.com/", async (req, res) => {
   const xx = await request(
     {
       headers: {
